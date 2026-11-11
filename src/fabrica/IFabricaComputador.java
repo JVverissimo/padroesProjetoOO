@@ -1,7 +1,8 @@
 package fabrica;
 
-import computadores;
+import computadores.Computador;
+import computadores.TIPO_COMPUTADOR;
 
 public interface IFabricaComputador {
-  public Computador criarComptutador(TIPO_COMPUTADOR);   
+    public Computador criarComputador(TIPO_COMPUTADOR tipo);
 }

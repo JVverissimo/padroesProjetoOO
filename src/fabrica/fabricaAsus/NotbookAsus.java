@@ -1,10 +1,13 @@
 package fabrica.fabricaAsus;
-import computadores;
+
+import computadores.Computador;
+
 public class NotbookAsus implements Computador {
-    public String GetNome(){
+    public String getNome() {
         return "Notebook Asus";
     }
-    public float getValor(){
+
+    public double getValor() {
         return 3300.43;
     }
 }

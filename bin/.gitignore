@@ -1,0 +1,10 @@
+# Dependências (geralmente pasta 'lib' ou 'node_modules')
+lib/
+node_modules/
+
+# Configurações do Visual Studio Code
+.vscode/
+
+# Saídas de compilação (binários e objetos)
+bin/
+obj/   

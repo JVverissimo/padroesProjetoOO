@@ -1,6 +1,6 @@
 package computadores;
 
-public interface Computador{
-    public float  getValor();
-    public String getnome();
+public interface Computador {
+    public double getValor();
+    public String getNome();
 }
